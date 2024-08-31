@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.contaner{
+ width:90%;
+ margin: auto;
+
+}
+.home{
+  background-color: rgba(155, 178, 170, 0.34);
+    height: 150vh;
+    position: relative;
+}
+.nave_bar{
+background-color: gray;
+z-index: 55;
+box-shadow: 1px 0 6px 1px black;
+
+}
+.nave_bar .logo h1{
+    
+    color: black;  
+}
+.nave_bar .logo h1 span{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hash{
+
+}
+.nave_bar .hash ul li{
+    padding:10px;
+    border-bottom: 2px rgba(0, 0, 0, 0.493) solid;
+}
+.nave_bar .hash a{
+    color: white;
+}
+
+.capchion_home{
+    color: rgb(0, 0, 0);
+   
+}
+.home_img{
+    width: 100%;
+    
+}
+.home_img img{
+    width: 100%;
+   
+}
+.capchion_home{
+    text-align: center;
+}
+.book{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+}
+.home2 h2{
+margin: 15px;
+padding-bottom: 15px;
+}
+
+.chefs{
+    /* background-color: blue; */
+    text-align: center;
+    margin: 30px 0;
+}
+.heed{
+    margin: 50px;
+}
+.heed span{
+    color: rgba(0, 0, 0, 0.453);
+}
+.heed h1 span{
+    color: rgb(255, 0, 0);
+}
+.im h2{
+    padding: 9px;
+}
+.im p{
+    padding: 9px;
+}
+.img-chef{
+    width: 100%;
+    border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.305);
+  margin-top: 40px;
+}
+.img-chef img{
+    width: 100%;
+}
+.img-chef .layer{
+
+position: absolute;
+background-color: rgba(255, 255, 255, 0.168);
+top: 20px;
+left:110%;
+width: 50px;
+border-radius: 5px;
+
+
+}
+i{
+    width: 100%;
+    padding: 20px 9px;
+}
+.img-chef:hover .layer{
+    left: 80%;
+    transition-duration: .5s ;
+}
+.img-chef:hover{
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+.gallery{
+    background-color: rgb(194, 217, 217);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+.img1 img{
+    width: 100%;
+    border: 2px white solid;
+}
+.img1 .layer{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.333);
+    color: white;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+
+justify-content: center;
+
+}
+.img1:hover .layer{
+    top: 0;
+    transition-duration: .5s ;
+}
+.img1:hover img{
+transform: scale(1.13);
+transition-duration: .5s ;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+}
+.ite{
+    background-color: rgba(205, 225, 219, 0.268);
+    display: flex;
+    padding:0 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.in{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border: 1px red solid;
+    border-radius: 50%;
+display: flex;
+align-items: center;
+}
+.in img{
+    width: 100%;
+}
+name
+.cab{
+    width: 50%;
+    text-align: start;
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    height: 50%;
+    margin: 50px 0;
+
+padding: auto;
+text-align: center;
+ 
+}
+.name{
+    width: 100%;
+    padding: 20px;
+    border-radius: 9px;
+}
+.sub{
+    width: 100%;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.mes{
+    width: 100%;
+    height: 20%;
+    border-radius: 9px;
+    padding: 20px;
+}
+.butt:hover {
+   background-color: black;
+/* color: red; */
+border: 0;
+}
+.input input{
+    margin-top:10px ;
+}
+.input button{
+    border: 1px red solid;
+    border-radius: 10px;
+background-color: red;
+color: white;
+padding: 10px 15px;
+margin:20px 0 50px ;
+
+}
+.end{
+    margin-top: 70px;
+    
+}
+.first{
+    background-image: url();
+    background-color: black;
+    width: 100%;
+    height: 60%;
+    color: bisque;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+/* margin-top:50px ; */
+    /* align-items: center; */
+    padding: 10px;
+
+}
+.first .hed{
+    width: 50%;
+   height: 10%;
+    display: flex;
+    /* justify-content: space-around; */
+    
+
+
+}
+.first span{
+    color: red;
+
+}
+.first .hed img{
+    width: 20%;
+    height: 50%;
+    padding-top: 25px;
+
+}
+.first .sochial{
+    display: flex;
+    border-top: 1px white solid;
+    width: 90%;
+}
+.seconed{
+width: 100%;
+background-color: rgb(0, 0, 0);
+color: white;
+height: 40%;
+/* margin-top: 0; */
+padding: 10px;
+}
+.seconed .ig input{
+    width: 90%;
+    padding:10px ;
+    margin: 10px;
+    border-radius: 9px;
+
+}
+.seconed .ig button{
+    width: 90%;
+    padding:10px ;
+    background-color: red;
+    margin: 10px;
+color: white;
+border: 0;
+border-radius: 9px;
+}
+
+.ul{
+    width: 50%;
+}
+.lest{
+    display: flex;
+
+}
+.three{
+    height: 40%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}

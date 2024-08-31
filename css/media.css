@@ -1,0 +1,165 @@
+@media screen and (min-width:770px) {
+    .home {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nave_bar {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        left: 0px;
+        right: 0px;
+    }
+
+    .logo {
+        width: 50%;
+        padding-left: 50px;
+    }
+
+    .hash {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .hash ul {
+        display: flex;
+
+
+    }
+
+    .nave_bar .hash ul li {
+        border: 0;
+
+    }
+
+    .nave_bar .hash a {
+        color: black;
+        padding: 0 10px;
+    }
+
+    .home2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home_img {
+
+        width: 40%;
+
+    }
+
+    .capchion_home {
+        width: 40%;
+
+    }
+
+    .book {
+        border-top-left-radius: 0;
+    }
+
+    .nave_bar .hash ul li:hover {
+        color: red;
+        border-bottom: 1px red solid;
+    }
+
+    .img-chef {
+        width: 45%;
+
+    }
+
+    .im {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .phto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .phto .colom {
+        width: 40%;
+
+    }
+
+    .cof {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ite {
+        width: 48%;
+    }
+
+    .name {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:990px) {
+    .img-chef {
+        width: 30%;
+
+    }
+
+    .phto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .phto .colom {
+        width: 33%;
+    }
+
+    .input {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .name {
+        width: 49.8%;
+    }
+
+    .end {
+      display: flex;
+        height: 40%;
+    }
+.ig input{
+    width: 80%;
+
+}
+.ig button{
+    width: 19%;
+
+}
+.end .first{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.end .seconed{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.end .three{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+}
